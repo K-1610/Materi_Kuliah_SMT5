@@ -12,12 +12,12 @@ Setelah menyelesaikan modul praktikum ini, mahasiswa diharapkan mampu:
 - verifikasi Git (buka cmd dan ketik "git --version")
 ![alt text](image.png)
 
-2. Install Node.js
+1. Install Node.js
 - unduh dan install Node.js via https://nodejs.org/en/download
 - verifikasi Node.js (buka cmd dan ketik "node --version" "npm --version")
 ![alt text](image-1.png)
 
-3. Memulai Project dengan Framework Expo
+1. Memulai Project dengan Framework Expo
 - Buka terminal pada code editor
 - Pastikan aktif di directory yang dituju
 - Ketikan (npx create-expo-app ptmn2 --template blank)
@@ -33,7 +33,7 @@ Setelah menyelesaikan modul praktikum ini, mahasiswa diharapkan mampu:
 - di terminal "npx expo install react-dom react-native-web"
 - npx expo start --web
 
-5. LATIHAN PERTEMUAN
+1. LATIHAN PERTEMUAN
 - Tambahkan text berupa
 - Nama Lengkap
 - Tempat Tanggal Lahir
