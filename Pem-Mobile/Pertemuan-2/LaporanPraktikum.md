@@ -32,6 +32,7 @@ Setelah menyelesaikan modul praktikum ini, mahasiswa diharapkan mampu:
 - jika ingin run emulator di WEB ketik w
 - di terminal "npx expo install react-dom react-native-web"
 - npx expo start --web
+![alt text](image-3.png)
 
 5. LATIHAN PERTEMUAN
 - Tambahkan text berupa
