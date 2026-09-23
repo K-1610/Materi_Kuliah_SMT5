@@ -1,11 +1,21 @@
+<<<<<<< HEAD
 import React, { useState, useRef, useEffect } from 'react';
+=======
+import React, { useState } from 'react';
+
+>>>>>>> dcf81b783a843cb4aa08d2ff86a65e4e416c7b03
 import {
   View,
   Text,
   Image,
+<<<<<<< HEAD
   Animated,
   ScrollView,
   FlatList,
+=======
+  ScrollView,
+  Flatlist,
+>>>>>>> dcf81b783a843cb4aa08d2ff86a65e4e416c7b03
   SectionList,
   TextInput,
   Button,
@@ -15,6 +25,7 @@ import {
   Modal,
   ActivityIndicator,
   StatusBar,
+<<<<<<< HEAD
   SafeAreaView,
   SafeAreaViewBase,
   StyleSheet,
@@ -23,6 +34,13 @@ import {
   KeyboardAvoidingView,
   Linking,
 } from 'react-native';
+=======
+  SafeAreaViewBase,
+  StyleSheet,
+  Platform,
+}
+  from 'react-native';
+>>>>>>> dcf81b783a843cb4aa08d2ff86a65e4e416c7b03
 
 const PROFILE = {
   name: 'Kamalul Iman',
@@ -30,12 +48,20 @@ const PROFILE = {
   email: 'kamalul1610@uinssc.ac.id',
   phone: '089699422279',
   location: 'Cirebon, West Java',
+<<<<<<< HEAD
   bio: 'Mahasiswa Informatika Semester 5 UINSSC',
+=======
+  bio: 'Mahasiswa Semester 5 UINSSC',
+>>>>>>> dcf81b783a843cb4aa08d2ff86a65e4e416c7b03
   avatar: 'https://lh3.googleusercontent.com/a/ACg8ocJgyWNUqdlO5e0OYvG0yBecPZZclxG4rQBamuPeq3D5uWLFiJo6=w124-h124-k-no-v0-cc-rp',
   avatarOffline: 'assets/foto.png',
 };
 
+<<<<<<< HEAD
 const SKILLS = [
+=======
+const SKILL = [
+>>>>>>> dcf81b783a843cb4aa08d2ff86a65e4e416c7b03
   { id: '1', name: 'React Native', level: 90, color: '#61dafb' },
   { id: '2', name: 'Flutter', level: 75, color: '#02569b' },
   { id: '3', name: 'JavaScript', level: 88, color: '#f7df1e' },
@@ -44,6 +70,7 @@ const SKILLS = [
   { id: '6', name: 'Firebase', level: 82, color: '#ffca28' },
 ]
 
+<<<<<<< HEAD
 const SECTIONS = [
   {
     title: 'Pengalaman Organisasi',
@@ -54,6 +81,18 @@ const SECTIONS = [
         company: 'Himpunan Mahasiswa Informatika - UIN Siber Syeikh Nurjati Cirebon',
         period: '2025 - 2026',
         desc: 'membuat desain dan dokumentasi setiap kegiatan himpunan',
+=======
+const SECTION = [
+  {
+    title: 'Pengalaman Kerja',
+    data: [
+      {
+        id: 'e1',
+        role: 'Senior Mobile Developer',
+        company: 'PT. TechVision Indonesia',
+        period: '2029 - Sekarang',
+        desc: 'Memimpin tim 5 developer dalam pengembangan aplikasi e-commerce mobile',
+>>>>>>> dcf81b783a843cb4aa08d2ff86a65e4e416c7b03
       },
       {
         id: 'e2',
@@ -71,14 +110,20 @@ const SECTIONS = [
         id: 'd1',
         role: 'S1 Informatika',
         company: 'Universitas Islam Negeri Siber Syekh Nurjati Cirebon',
+<<<<<<< HEAD
         period: '2024 - sekarang',
         desc: 'IPK 3.62 / 4,00'
+=======
+        period: '2024 - 2029',
+        desc: 'IPK 3.72 / 4,00'
+>>>>>>> dcf81b783a843cb4aa08d2ff86a65e4e416c7b03
       },
     ],
   },
 ];
 
 const SOCIAL = [
+<<<<<<< HEAD
   { id: 's1', label: 'Github', icon: '💻', url: 'https://github.com/K-1610' },
   { id: 's2', label: 'Instagram', icon: '📷', url: 'https://www.instagram.com/key_sixteen_?stkn=eHU0Z215ajhrd2F6' },
   { id: 's3', label: 'Tiktok', icon: '🎵', url: 'https://www.tiktok.com/@mskuyyy_16?_r=1&_t=ZS-99xdsOEUtYD' },
@@ -961,5 +1006,32 @@ const styles = StyleSheet.create({
     color: COLORS.textMuted,
     fontSize: 13,
     lineHeight: 22,
+=======
+  { id: 's1', label: 'Github', icon: '🎖️', url: '' },
+  { id: 's2', label: 'LinkedIn', icon: '💼', url: '' },
+  { id: 's3', label: 'Youtube', icon: '📹', url: '' },
+]
+
+
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Text style={{ textAlign: "center" }}>Nama Lengkap: Kamalul Iman</Text>
+      <Text style={{ textAlign: "center" }}>Tempat Tanggal Lahir: Cirebon 16-Oktober-2006</Text>
+      <Text style={{ textAlign: "center" }}>Cita-Cita: Mengembangkan Virtual Reality dan membuat perusahaan berbasis Virtual Reality</Text>
+      <Text style={{ textAlign: "center" }}>Rencana Hidup: Membaca dan mencari tahu semua tentang Virtual Reality</Text>
+      <StatusBar style="auto" />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+>>>>>>> dcf81b783a843cb4aa08d2ff86a65e4e416c7b03
   },
 });
